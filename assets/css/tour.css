@@ -1,0 +1,121 @@
+@import url("headFoot.css");
+@import url("style.css");
+
+.card {
+  border: none;
+}
+
+.table td {
+  padding: 0;
+  color: #73080A;
+}
+
+
+#upcoming-events .row {
+  width: 100%;
+}
+
+#upcoming-events .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/*UPCOMING EVENTS CARD*/
+.card {
+  border: 2px solid #73080A;
+  padding: 5px;
+}
+/*END OF UPCOMING EVENTS CARD*/
+.card-body h5{
+  font-size: 17px;
+}
+
+
+/* POSTER */
+
+.poster{
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: TRANSPARENT;
+}
+
+.overlay:hover {
+  opacity: .7;
+}
+
+.text {
+  padding: 0;
+  margin:0;
+  color: white;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* END OF POSTER */
+
+#tour-gallery {
+  /* Create four equal columns that sits next to each other */
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+}
+
+#tour-gallery .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#tour-gallery .column {
+  -webkit-box-flex: 33.3%;
+      -ms-flex: 33.3%;
+          flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+#tour-gallery .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  #tour-gallery .column {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #tour-gallery .column {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=tour.css.map */

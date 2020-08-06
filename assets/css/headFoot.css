@@ -1,0 +1,79 @@
+@import url("style.css");
+
+.logo{
+  width: 16%;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #73080A;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #73080A;
+  font-weight: 700;
+}
+
+#header .active {
+  color: green;
+}
+
+#footer {
+  background-color: var(--maroon-color);
+  color: var(--yellow-color);
+  width: 100%;
+}
+
+#footer .social-meadia {
+  font-size: 1.3rem;
+  background-color: white;
+  padding: 0px 20px 1px 20px;
+  margin: 0px 20px 0px 20px;
+}
+
+#footer a {
+  font-size: 1.5rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-spotify {
+  color: green;
+}
+.fa-amazon {
+  color:#FF9900;
+}
+.fa-instagram {
+  color: #517fa8
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-apple{
+  color: black;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-spotify:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-apple:hover, .fa-amazon:hover {
+  color: var(--maroon-color);
+}
+#footer .logo {
+  width: 15%;
+  padding-top: 3px;
+}
+#footer h5 {
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .logo{
+    width: 28%;
+  }
+
+  #footer .logo{
+    width:25%;
+  }
+}
+
+

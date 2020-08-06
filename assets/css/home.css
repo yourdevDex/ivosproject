@@ -1,0 +1,116 @@
+@import url("headFoot.css");
+@import url("style.css");
+
+#about-us img {
+  width: 80%;
+}
+
+#about-us .parallax {
+  width: 100vw;
+  /* The image used */
+  background-image: url("/assets/img/about-us-jumbo.jpg");
+  /* Set a specific height */
+  height: 500px;
+ }
+
+.card {
+  border: none;
+}
+
+.table td {
+  padding: 0;
+  color: var(--maroon-color);
+}
+
+/*DISCOGRAPH index*/
+#discograph{
+    text-align: center;
+}
+.discograph-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.discograph-img{
+  display: block;
+  width: 100%;
+  height: 225px;
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #022434;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.discograph-item:hover .overlay{
+  opacity: 1;
+}
+
+.overlay-content{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*DISCOGRAPH index end*/
+
+/*Tour Gallery Index*/
+.tg-heading{
+  text-align: left;
+  background-image: url(/assets/tour-gallery/tg1.jpg);
+  color: yellow;
+  padding: 100px;
+}
+
+
+@media (min-width: 768px) {
+    .sched {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+  }
+  #welcome .welcome-image {
+    height: 100vh;
+  }
+  #welcome table {
+    background-color: white;
+  }
+  #about-us .container {
+    background-color: white;
+  }
+  #about-us .about-info {
+    position: relative;
+    top: 70px;
+  }
+  #about-us .about-us-jumbo {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #discograph-page{
+    text-align: center;
+    }
+    .dg-img{
+      margin-top: 20px;
+    }
+ }
+
+
+
+
+ 

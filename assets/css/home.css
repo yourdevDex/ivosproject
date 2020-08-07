@@ -8,7 +8,7 @@
 #about-us .parallax {
   width: 100vw;
   /* The image used */
-  background-image: url("assets/img/about-us-jumbo.jpg");
+  background-image: url("../assets/img/about-us-jumbo.jpg");
   /* Set a specific height */
   height: 500px;
  }
